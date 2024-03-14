@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.seatt.placementapp">
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/pl"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".AddcompanyDetails" />
+        <activity android:name=".Adminlogin" />
+        <activity android:name=".remove" />
+        <activity android:name=".remove2" />
+
+        <activity android:name=".remove1" />
+        <activity android:name=".staffpage" />
+        <activity android:name=".AddstudentDetails" />
+        <activity android:name=".AddmarkDetails" />
+        <activity android:name=".Stafflogin" />
+        <activity android:name=".AddstaffDetails" />
+        <activity android:name=".Adminpage" />
+        <activity android:name=".staffhome" />
+        <activity android:name=".viewstaffinfo" />
+        <activity android:name=".viewattendace" />
+        <activity android:name=".viewstudentinfo" />
+        <activity android:name=".viewplace" />
+
+    </application>
+
+</manifest>

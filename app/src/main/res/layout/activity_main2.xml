@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FEDBD0"
+    tools:context=".MainActivity2">
+
+
+    <ImageView
+        android:layout_width="150sp"
+        android:layout_height="150sp"
+        app:srcCompat="@drawable/staff"
+        android:id="@+id/imageView"
+        tools:ignore="ContentDescription"
+        android:layout_marginTop="53dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignLeft="@+id/i2"
+        android:layout_alignStart="@+id/i2" />
+
+    <TextView
+        android:text="staff"
+        android:layout_width="wrap_content"
+        android:fontFamily="cursive"
+        android:background="@color/colorAccent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText"
+        android:layout_below="@+id/i2"
+        android:layout_alignLeft="@+id/textView6"
+        android:layout_alignStart="@+id/textView6"
+        android:layout_marginTop="48dp" />
+
+    <TextView
+        android:text="Admin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:id="@+id/textView6"
+        android:textAlignment="center"
+        android:fontFamily="cursive"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText"
+        android:layout_marginTop="57dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/i2"
+        android:layout_width="150sp"
+        android:layout_height="150sp"
+
+        android:src="@drawable/pl"
+        tools:ignore="ContentDescription"
+        android:background="@android:color/background_light"
+        android:layout_marginTop="27dp"
+        android:layout_below="@+id/textView6"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
